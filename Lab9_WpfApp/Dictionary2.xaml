@@ -1,0 +1,17 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:fontfamily="clr-namespace:System.Collections;assembly=mscorlib"
+        xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+
+    <fontfamily:ArrayList x:Key="family">
+        <sys:String>Times New Roman</sys:String>
+        <sys:String>Arial</sys:String>
+        <sys:String>Courier New</sys:String>
+        <sys:String>Calibri</sys:String>
+        <sys:String>Comic Sans MS</sys:String>
+        <sys:String>Arial Black</sys:String>
+        <sys:String>Mistral</sys:String>
+    </fontfamily:ArrayList>
+
+</ResourceDictionary>
