@@ -51,27 +51,6 @@ namespace Lab9_WpfApp
             Application.Current.Resources.MergedDictionaries.Add(resource);
         }
 
-        private void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)        // гарнитура
-        {
-            string selectedState = boxFamily.SelectedItem.ToString();
-            if (textBox != null)
-            {
-                textBox.FontFamily = new FontFamily(selectedState);
-                //    //MessageBox.Show(selectedState);
-            }
-        }
-
-        private void ComboBox_SelectionChanged_1(object sender, SelectionChangedEventArgs e)        // кегль
-        {
-
-            string selectedState = boxSize.SelectedItem.ToString();
-            //MessageBox.Show(selectedState);
-            double size = Convert.ToDouble(selectedState);
-
-            if (textBox != null)
-                textBox.FontSize = size;
-        }
-
         private void Button_Click(object sender, RoutedEventArgs e)                //жирное начертание
         {
             if (textBox != null)
